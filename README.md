@@ -1,2 +1,2 @@
 # web_demo
-Web Demo Project
+The Python full stack web demo project
