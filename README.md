@@ -1,5 +1,5 @@
 # Overview
-The Python full stack Web Demo Project
+The Python full stack Web Demo Project.
 
 ![alt](/src/static/WEBDEMO.png)
 
