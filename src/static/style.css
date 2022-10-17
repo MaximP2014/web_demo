@@ -1,0 +1,119 @@
+/*
+ * Web Demo Project
+ * Copyright (C) 2022 Maksim Petrenko
+ */
+
+
+/******** Layout ********/
+strong, a {
+    display: block;
+}
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/******** Box model ********/
+header, main, footer {
+    max-width: 640px;
+    margin: 0.75em auto 0.75em auto;
+}
+fieldset {
+    margin: 0.75em 0 0.75em 0;
+}
+strong, section, fieldset {
+    padding: 1em;
+}
+h1, h2, .item {
+    margin-top: 0;
+}
+.factor {
+    margin-bottom: 0.5em;
+}
+#source {
+    margin-bottom: 0;
+}
+.flex-around {
+    max-width: 480px;
+    margin: auto;
+}
+meter {
+    width: 100%;
+}
+button, a {
+    width: 120px;
+    padding: 0.5em;
+}
+.point {
+    margin: 0.5em 0 0.5em 0;
+}
+header, section, fieldset, button, a {
+    border-radius: 0.5em;
+}
+section {
+    border-top-width: 0.5em;
+    border-top-style: solid;
+}
+a {
+    margin: auto;
+}
+
+
+/******** Colors ********/
+body {
+    background-color: aliceblue;
+}
+header, .submit, a {
+    background-color: forestgreen;
+    color: white;
+}
+.reset {
+    color: forestgreen;
+}
+section {
+    border-top-color: forestgreen;
+}
+section, fieldset {
+    background-color: white;
+}
+span {
+    color: blue;
+}
+footer {
+    color: gray;
+}
+
+
+/******** Fonts ********/
+body {
+    font-family: sans-serif;
+}
+strong {
+    font-size: 2em;
+    text-align: center;
+}
+section p {
+    font-size: 0.875em;
+}
+.point, a, footer {
+    text-align: center;
+}
+button {
+    font-size: 1em;
+}
+a {
+    text-decoration: none;
+}
+
+
+/******** Misc ********/
+input:hover, button:hover {
+    cursor: pointer;
+}
+
