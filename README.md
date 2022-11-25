@@ -11,5 +11,5 @@ The Python full stack Web Demo Project.
 # Screenshots
 Mozilla Firefox
 
-![alt](/src/static/test_mini.png)
-![alt](/src/static/results.png)
+![alt](/src/screenshots/test_mini.png)
+![alt](/src/screenshots/results.png)
